@@ -1,0 +1,22 @@
+services:
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: clinicamedica
+    ports:
+      - "3306:3306"
+
+  api:
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: clinicamedica
