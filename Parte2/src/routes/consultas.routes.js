@@ -28,7 +28,7 @@ const consultasController = require('../controllers/consultas.controller');
  * @openapi
  * /consultas:
  *   get:
- *     summary: Lista todas as consultas
+ *     summary: Faz uma lista de todas as consultas
  *     responses:
  *       200:
  *         description: Lista de consultas

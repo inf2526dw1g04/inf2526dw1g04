@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
-const swaggerSpec = require('./src/swagger');
+const swaggerSpec = require('./src/swagger'); // se swagger.js estiver na pasta src
 const pacientesRoutes = require('./src/routes/pacientes.routes');
 const medicosRoutes = require('./src/routes/medicos.routes');
 const especialidadesRoutes = require('./src/routes/especialidades.routes');

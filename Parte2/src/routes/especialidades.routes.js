@@ -21,10 +21,10 @@ const especialidadesController = require('../controllers/especialidades.controll
  * @openapi
  * /especialidades:
  *   get:
- *     summary: Lista todas as especialidades
+ *     summary: Faz uma lista de todas as especialidades
  *     responses:
  *       200:
- *         description: Lista de especialidades
+ *         description: Faz uma lista das especialidades
  *         content:
  *           application/json:
  *             schema:

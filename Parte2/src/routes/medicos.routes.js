@@ -27,7 +27,7 @@ const medicosController = require('../controllers/medicos.controller');
  * @openapi
  * /medicos:
  *   get:
- *     summary: Lista todos os médicos
+ *     summary: Faz uma lista de todos os médicos
  *     responses:
  *       200:
  *         description: Lista de médicos

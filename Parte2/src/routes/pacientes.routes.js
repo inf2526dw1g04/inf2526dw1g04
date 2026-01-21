@@ -30,7 +30,7 @@ const pacientesController = require('../controllers/pacientes.controller');
  * @openapi
  * /pacientes:
  *   get:
- *     summary: Lista todos os pacientes
+ *     summary: Faz uma lista de todos os pacientes
  *     responses:
  *       200:
  *         description: Lista de pacientes
